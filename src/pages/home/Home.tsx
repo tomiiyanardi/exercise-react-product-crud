@@ -1,6 +1,10 @@
+import Card  from "../../components/Card/Card";
+import Carrusel from "../../components/Carrusel/Carrusel";
+
 const Home: React.FC = () => (
   <div>
-    This is Home page!
+    <Carrusel/>
+    <Card/>
   </div>
 );
 
